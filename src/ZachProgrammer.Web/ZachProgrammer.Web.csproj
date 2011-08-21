@@ -76,7 +76,7 @@
     <Compile Include="Modules\AppModule.cs" />
     <Compile Include="Modules\HomeModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="Views\index.cshtml" />
+    <Content Include="Views\index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
