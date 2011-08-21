@@ -11,5 +11,6 @@ namespace ZachProgrammer.Web.Modules
         {
             Get["/"] = x => View["index"];
         }
+
     }
 }
