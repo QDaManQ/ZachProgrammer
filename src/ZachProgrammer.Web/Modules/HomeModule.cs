@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Web;
 
@@ -9,7 +10,8 @@ namespace ZachProgrammer.Web.Modules
     {
         public HomeModule()
         {
-            Get["/"] = x => View["index"];
+            var answer = "No.";
+            Get["/"] = x => View["index", answer];
         }
 
     }
