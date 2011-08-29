@@ -10,7 +10,7 @@ namespace ZachProgrammer.Web.Modules
     {
         public HomeModule()
         {
-            var answer = "No.";
+            var answer = "Hell yes he will work for it ;D";
             Get["/"] = x => View["index", answer];
         }
 
